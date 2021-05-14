@@ -1,0 +1,13 @@
+<%- include('../partials/boilerplate') %>
+<body>
+    <h1>Sign Up</h1>
+    <form action="/users/signup" method="POST">
+        <input type="text" name="username" placeholder="Username" />
+        <input type="email" name="email" placeholder="Email" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="text" name="aboutMe" placeholder="About" />
+        <input type="text" name="img" placeholder="User Image" />
+        <input type="submit" value="Create Profile" />
+    </form>
+</body>
+</html>
